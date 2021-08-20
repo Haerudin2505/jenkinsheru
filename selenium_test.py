@@ -4,7 +4,7 @@ driver=webdriver.Chrome(executable_path="D:/Master/chromedriver_win32/chromedriv
 driver.maximize_window();
 driver.get("https://localhost/form.php");
 
-driver.find_element_by_name("nip").send_keys("12345");
+driver.find_element_by_name("nip").send_keys("1234532432");
 driver.find_element_by_name("nama").send_keys("Heru");
 driver.find_element_by_name("nik").send_keys("07070433");
 driver.find_element_by_name("alamat").send_keys("tangerang");
